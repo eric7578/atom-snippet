@@ -6,7 +6,7 @@ atom snippets
   'mocha before':
     'prefix': 'before'
     'body': """
-    before('', () => {
+    before(() => {
 
     })
     """
@@ -14,7 +14,7 @@ atom snippets
   'mocha after':
     'prefix': 'after'
     'body': """
-    after('', () => {
+    after(() => {
 
     })
     """
@@ -22,7 +22,7 @@ atom snippets
   'mocha beforeEach':
     'prefix': 'beforeEach'
     'body': """
-    beforeEach('', () => {
+    beforeEach(() => {
 
     })
     """
@@ -30,7 +30,7 @@ atom snippets
   'mocha afterEach':
     'prefix': 'afterEach'
     'body': """
-    afterEach('', () => {
+    afterEach(() => {
 
     })
     """
